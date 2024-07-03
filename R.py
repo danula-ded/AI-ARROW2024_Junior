@@ -1,26 +1,17 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-
-# Загрузка данных
-data = pd.read_csv('Fish.csv')
-
-# Удаление столбца с текстовыми данными
-data = data.drop('Species', axis=1)
-
-# Выделение целевого столбца
+import sklearn
+from sklearn.metrics import mean_absolute_error
+from sklearn.linear_model import LinearRegression, Lasso, Ridge
+data = pd.read_csv("Fish.csv")
+data.drop("Species", axis=1, inplace=True)
 y = data['Weight']
-X = data.drop('Weight', axis=1)
-
-# Разделение данных на тренировочную и тестовую выборки
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-# Обучение модели линейной регрессии
+data.drop("Weight", axis=1, inplace=True)
+x_train, x_test = data[:111], data[111:]
+y_train, y_test = y[:111], y[111:]
 lr = LinearRegression()
-lr.fit(X_train, y_train)
-
-# Вывод коэффициентов линейной регрессии
-print(lr.coef_, lr.intercept_)
-
-# Для решения задачи В поле ввода внесите значение lr.intercept_ до 4 знака после запятой включительно.
-print(f"В поле ввода внесите значение lr.intercept_ до 4 знака после запятой включительно: {lr.intercept_:.4f}")
+lr.fit(x_train, y_train)
+#print(lr.coef_, lr.intercept_)
+print(round(lr.intercept_, 4))
+y_pred = lr.predict(x_test)
+#print(y_pred)
+mean_absolute_error(y_test, y_pred)
