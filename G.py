@@ -1,9 +1,11 @@
-# Чтение входных данных
-costs = list(map(float, input().split()))
-sales = list(map(float, input().split()))
+# Чтение входных данных из файла
+with open('input.txt', 'r') as file:
+    costs = list(map(float, file.readline().split()))
+    revenues = list(map(float, file.readline().split()))
 
-# Вычисление прибыли
-profits = [round(sales[i] - costs[i], 2) for i in range(len(costs))]
+# Вычисление ежемесячной прибыли
+profits = [revenue - cost for cost, revenue in zip(costs, revenues)]
 
-# Форматированный вывод результатов
-print(' '.join(f'{profit:.2f}' for profit in profits))
+# Запись результатов в файл
+with open('output.txt', 'w') as file:
+    file.write(' '.join([f'{profit:.2f}' for profit in profits]))
