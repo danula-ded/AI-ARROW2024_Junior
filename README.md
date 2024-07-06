@@ -43,23 +43,23 @@
 
 ![E. Слайсы в списках Python](./image_tasks/E.png)
 
-## [G. Прибыль фирмы](https://github.com/danula-ded/)
+## [G. Прибыль фирмы](https://github.com/danula-ded/AI-ARROW2024_Junior/edit/main/G.py)
 
 ![G. Прибыль фирмы](./image_tasks/G.png)
 
-## [F. Воскресные прогулки](https://github.com/danula-ded/)
+## [F. Воскресные прогулки](https://github.com/danula-ded/AI-ARROW2024_Junior/edit/main/F.py)
 
 ![F. Воскресные прогулки](./image_tasks/F.png)
 
-## [H. Тренировки](https://github.com/danula-ded/)
+## [H. Тренировки](https://github.com/danula-ded/AI-ARROW2024_Junior/edit/main/H.py)
 
 ![H. Тренировки](./image_tasks/H.png)
 
-## [I. Визуализация тренировок](https://github.com/danula-ded/)
+## [I. Визуализация тренировок](https://github.com/danula-ded/AI-ARROW2024_Junior/edit/main//I.py)
 
 ![I. Визуализация тренировок](./image_tasks/I.png)
 
-## [J. Точка пересечения](https://github.com/danula-ded/)
+## [J. Точка пересечения](https://github.com/danula-ded/AI-ARROW2024_Junior/edit/main/J.py)
 
 ![J. Точка пересечения](./image_tasks/J.png)
 
@@ -71,26 +71,26 @@
 
 ![L. Методы понижения размерности](./image_tasks/L.png)
 
-## [M. Ирисы1](https://github.com/danula-ded/)
+## [M. Ирисы1](https://github.com/danula-ded/AI-ARROW2024_Junior/edit/main/M.py)
 
 ![M. Ирисы1](./image_tasks/M.png)
 
-## [N. Ирисы2](https://github.com/danula-ded/)
+## [N. Ирисы2](https://github.com/danula-ded/AI-ARROW2024_Junior/edit/main/N.py)
 
 ![N. Ирисы2](./image_tasks/N.png)
 
-## [O. Объем данных](https://github.com/danula-ded/)
+## [O. Объем данных](https://github.com/danula-ded/AI-ARROW2024_Junior/edit/main/O.py)
 
 ![O. Объем данных](./image_tasks/O.png)
 
-## [P. Пустые значения](https://github.com/danula-ded/)
+## [P. Пустые значения](https://github.com/danula-ded/AI-ARROW2024_Junior/edit/main/P.py)
 
 ![P. Пустые значения](./image_tasks/P.png)
 
-## [Q. Средний балл по математике](https://github.com/danula-ded/)
+## [Q. Средний балл по математике](https://github.com/danula-ded/AI-ARROW2024_Junior/edit/main/Q.py)
 
 ![Q. Средний балл по математике](./image_tasks/Q.png)
 
-## [R. Взвешиваем рыб](https://github.com/danula-ded/)
+## [R. Взвешиваем рыб](https://github.com/danula-ded/AI-ARROW2024_Junior/edit/main/R.py)
 
 ![R. Взвешиваем рыб](./image_tasks/R.png)
